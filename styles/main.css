@@ -1,0 +1,36 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: darkorange;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.logo__link {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.logo__link:hover{
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}

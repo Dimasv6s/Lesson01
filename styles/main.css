@@ -5,6 +5,8 @@
 
 .header {
     background-color: darkorange;
+    position: fixed;
+    width: 100%;
 }
 
 .header__container {
@@ -33,4 +35,29 @@
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
+}
+
+.bigboard {
+    background-color: darkslategray;
+    height: 100vh;
+
+}
+
+.bigboard__container  {
+    padding-top: 51px;
+    height: calc(100% - 51px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bigboard__title {
+    font-size: 60px;
+    color: cornsilk;
+}
+
+.bigboard__text {
+    font-size: 30px;
+    color: cyan;
+    padding: 20px 0;
 }
